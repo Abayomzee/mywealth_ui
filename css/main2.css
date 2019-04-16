@@ -344,13 +344,30 @@ a.article:hover {
     border-radius: 2rem;
 }
 
+.back_to_login {
+    font-size: 15px;
+    cursor: pointer;
+    transform: font-size .35s, color .035s;
+}
+
+.back_to_login:hover {
+    color: green;
+    font-size: 17px;
+}
+
 .btn {
     font-weight: 400;
     border: 1px solid transparent;
     padding: 15px 20px;
     font-size: .9rem;
     line-height: 1.5px;
-    background-color: #1CD829;
+    
+}
+
+.resetBox {
+    height: 300px; 
+    background-color: white;
+    border-radius: 10px !important;
 }
 
 .loginDesc {
