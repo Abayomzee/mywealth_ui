@@ -349,12 +349,12 @@ a.article:hover {
 .back_to_login {
     font-size: 15px;
     cursor: pointer;
-    transform: font-size .35s, color .035s;
+    transform: letter-spacing .35s, color .035s;
 }
 
 .back_to_login:hover {
     color: green;
-    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 .reset_h2 {
