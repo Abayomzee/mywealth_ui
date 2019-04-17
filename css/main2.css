@@ -92,7 +92,7 @@ a:focus {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;
+    /* color: rgb(19, 117, 11); */
     transition: all 0.3s;
 }
 
@@ -164,7 +164,6 @@ a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    /* border-bottom: 1px solid #47748b; */
 }
 
 #sidebar ul.components li a {
@@ -349,12 +348,12 @@ a.article:hover {
 .back_to_login {
     font-size: 15px;
     cursor: pointer;
-    transform: font-size .35s, color .035s;
+    transform: letter-spacing .35s, color .035s;
 }
 
 .back_to_login:hover {
     color: green;
-    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 .reset_h2 {
@@ -366,8 +365,7 @@ a.article:hover {
     /* border: 1px solid transparent; */
     padding: 15px 20px;
     font-size: .9rem;
-    line-height: 1.5px;
-    
+    line-height: 1.5px;    
 }
 
 .resetBox {
@@ -377,7 +375,7 @@ a.article:hover {
 }
 
 .loginDesc {
-    /* font-family: "Poppins",sans-serif; */
+    font-family: "Poppins",sans-serif;
     font-size: .9rem;
     font-weight: 400;
     line-height: 1.5;
@@ -401,6 +399,14 @@ a.article:hover {
     padding: 10px;
     border-radius: 6px;
     letter-spacing: 1px;
+}
+
+.dropdown-togu::after {
+    margin-left: 40px !important;
+}
+
+.dropdown-togu {
+    margin-right: 11px !important;
 }
 
 .app_store_badges_dash {
@@ -500,4 +506,28 @@ a.article:hover {
 
 .social_icon a:hover {
     color: #146e29;
+=======
+#sidebar ul.components li {
+    color: green !important;
+}
+
+.sidebar-dashboard-txt {
+    color: #61eb61;
+}
+
+#sidebar ul.components li:hover {
+    color: rgb(226, 226, 226) !important;
+}
+
+#sidebar ul.components li {
+    font-weight: 550;
+}
+
+#sidebar ul.components li ul {
+    background-color: rgba(15, 127, 22, 0.408) !important;
+    box-sizing: border-box;
+}
+
+#sidebar ul.components li ul li:hover {
+    background-color: rgba(27, 193, 38, 0.85) !important;
 }
