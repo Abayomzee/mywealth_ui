@@ -363,7 +363,7 @@ a.article:hover {
 
 .btn {
     font-weight: 400;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     padding: 15px 20px;
     font-size: .9rem;
     line-height: 1.5px;
@@ -447,4 +447,57 @@ a.article:hover {
 
 .form-control-lg {
     border-radius: 0;
+}
+
+.pagination li > a {
+    color: #1c6345 !important;
+  }
+
+  .pagination > li > a:hover {
+      color: white !important;
+      background-color: #1c6345;
+  }
+
+  .dropdown-togu::after {
+    margin-left: 40px !important;
+}
+
+.dropdown-togu {
+    margin-right: 11px !important;
+}
+
+.dropdown-toguu::after {
+    /* margin-left: 150px !important; */
+    display: none !important;
+}
+
+.dropdown-toguu {
+    margin-right: 11px !important;
+}
+
+#sidebar ul.components li:hover {
+    color: rgb(192, 243, 190) !important;
+}
+
+#sidebar ul.components li ul li:hover {
+    color: white !important;
+    background-color: #28a74653;
+}
+
+.footer {
+    /* background-color: #28a745; */
+    /* height: 100px; */
+    text-align: center;
+    
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+    color: #28a745;
+}
+
+
+.social_icon a:hover {
+    color: #146e29;
 }
